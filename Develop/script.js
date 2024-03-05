@@ -21,7 +21,8 @@ const collectEmployees = function() {
     //Collect salary amount and default to 0 if value is not a number
     let employeeSalary = window.prompt("What is the employee's current salary?");
 
-    let number = parseInt(employeeSalary)
+    let number = parseFloat(employeeSalary)
+
     if (isNaN(number)) {
       employeeSalary = 0;
   }
