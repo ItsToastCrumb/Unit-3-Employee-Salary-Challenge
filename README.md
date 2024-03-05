@@ -10,17 +10,23 @@ This project helped me understand arrays and objects and how they interact with 
 
 The following images show the prompts as they appear for user input of the employee's first name, their last name, and their salary. This is followed by a confirmation prompt to ask if the user would like to add another employee:
 
-![Screenshot of prompt for employee's first name](./Develop/images/Employee%20Salary%20Prompt%201%20Screenshot.png)
+![Screenshot of prompt for employee's first name](./images/Employee%20Salary%20Prompt%201%20Screenshot.png)
 
-![Screenshot of prompt for employee's last name](./Develop/images/Employee%20Salary%20Prompt%202%20Screenshot.png)
+![Screenshot of prompt for employee's last name](./images/Employee%20Salary%20Prompt%202%20Screenshot.png)
 
-![Screenshot of prompt for employee's salary](./Develop/images/Employee%20Salary%20Prompt%203%20Screenshot.png)
+![Screenshot of prompt for employee's salary](./images/Employee%20Salary%20Prompt%203%20Screenshot.png)
 
-![Screenshot of confirmation box if user would like add another employee](./Develop/images/Employee%20Salary%20Prompt%204%20Screenshot.png)
+![Screenshot of confirmation box if user would like add another employee](./images/Employee%20Salary%20Prompt%204%20Screenshot.png)
 
 The following image shows an example of the webpage when all the employees have been added and it displays the average salary along with a random employee. The 'Add Employees' button was pressed multiple times to exhibit the random employee generator:
 
-![Screenshot of prompt for employee name](./Develop/images/Employee%20Salary%20Screenshot.png)
+![Screenshot of prompt for employee name](./images/Employee%20Salary%20Screenshot.png)
+
+## Links
+
+Github: https://github.com/ItsToastCrumb/Unit-3-Employee-Salary-Challenge
+
+Gitpage: https://itstoastcrumb.github.io/Unit-3-Employee-Salary-Challenge/
 
 ## Credits
 
