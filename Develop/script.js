@@ -1,8 +1,10 @@
 // Get a reference to the #add-employees-btn element
 const addEmployeesBtn = document.querySelector('#add-employees-btn');
 
+//Declare global variable to store an array
 const employeesArray = [];
 
+//Declare global variable for collecting employee information using while statement
 let addEmployee = true;
 
 // Collect employee data
@@ -12,11 +14,9 @@ const collectEmployees = function() {
 
     //Collect first name
     const employeeFirstName = window.prompt("What is the employee's first name?");
-    // console.log(employee.firstName);
     
     //Collect last name
     const employeeLastName = window.prompt("What is the employee's last name?");
-    // console.log(employee.lastName);
     
     //Collect salary amount and default to 0 if value is not a number
     let employeeSalary = window.prompt("What is the employee's current salary?");
@@ -29,10 +29,8 @@ const collectEmployees = function() {
   let employee = {
     firstName: employeeFirstName,
     lastName: employeeLastName,
-    salary: employeeSalary
+    salary: parseFloat(employeeSalary)
   }
-
-    // console.log(employee);
     
     //Add object information into employeesArray
     employeesArray.push(employee);
@@ -42,17 +40,19 @@ const collectEmployees = function() {
   }
 }
 
-console.log(employeesArray);
-
 // Display the average salary
 const displayAverageSalary = function() {
   // TODO: Calculate and display the average salary
-for (i = 0; i < employeesArray.length; i++) {
-  
-}
+  let totalSalary = 0;
+
+  for (i = 0; i < employeesArray.length; i++) {
+    totalSalary += employeesArray[i].salary;
+  };
+
+  let averageSalary = totalSalary / employeesArray.length;
 
   //Output number of employees and average salary to console log
-  console.log(`The average employee salary between our ${employeesArray.length} employee(s) is .`);
+  console.log(`The average employee salary between our ${employeesArray.length} employee(s) is ${averageSalary}.`);
 }
 
 // Select a random employee
