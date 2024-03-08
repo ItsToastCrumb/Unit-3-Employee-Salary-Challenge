@@ -31,6 +31,7 @@ Gitpage: https://itstoastcrumb.github.io/Unit-3-Employee-Salary-Challenge/
 ## Credits
 
 Instructor: Benjamin Machock
+
 Tutoring: Joem Mervyll Casusi
 
 ## License
